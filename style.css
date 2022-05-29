@@ -6,7 +6,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,18,1) 35%, rgba
 }
 main{
     width: 730px;
-    margin: 30px auto;
+    margin: 30px auto 50px;
     display: flex;
     align-items: center;
 }
@@ -27,8 +27,8 @@ h1{
     text-align: center;
 }
 button{
-    height: 100px;
-    width: 100px;
+    height: 65px;
+    width: 64px;
     font-size: 40px;
     color: black;
     font-weight: bold;
