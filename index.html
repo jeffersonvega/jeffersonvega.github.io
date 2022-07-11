@@ -1,52 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="style.css">
-    <title>Document</title>
-  </head>
-  <body>
-    <main>
-      <section class="section1">
-        <h1>Juego de memoria</h1>
-        <table>
-          <tr>
-            <td><button id="0" onclick="destapar(0)"></button></td>
-            <td><button id="1" onclick="destapar(1)"></button></td>
-            <td><button id="2" onclick="destapar(2)"></button></td>
-            <td><button id="3" onclick="destapar(3)"></button></td>
-          </tr>
-          <tr>
-            <td><button id="4" onclick="destapar(4)"></button></td>
-            <td><button id="5" onclick="destapar(5)"></button></td>
-            <td><button id="6" onclick="destapar(6)"></button></td>
-            <td><button id="7" onclick="destapar(7)"></button></td>
-          </tr>
-          <tr>
-            <td><button id="8" onclick="destapar(8)"></button></td>
-            <td><button id="9" onclick="destapar(9)"></button></td>
-            <td><button id="10" onclick="destapar(10)"></button></td>
-            <td><button id="11" onclick="destapar(11)"></button></td>
-          </tr>
-          <tr>
-            <td><button id="12" onclick="destapar(12)"></button></td>
-            <td><button id="13" onclick="destapar(13)"></button></td>
-            <td><button id="14" onclick="destapar(14)"></button></td>
-            <td><button id="15" onclick="destapar(15)"></button></td>
-          </tr>
-        </table>
-      </section>
-      <section class="section2">
-        <h2 id="aciertos" class="estadisticas">Aciertos: 0</h2>
-        <h2 id="tiempo" class="estadisticas">Tiempo: 30 segundos</h2>
-        <h2 id="movimientos" class="estadisticas">Movimientos: 0</h2>
-      </section>
-    </main>
-		<footer>
-			<p>Juego programados por👉🏽 @Jefferson Vega</p>
-		</footer>
-		<script src="main.js"></script>
-  </body>
+<head>
+    <title>Portafolio UG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="logonav" >
+            <p class="logo">Libri Code</p>
+
+          </div>
+            <nav>
+                <a href="#somos-proya">Acerca</a>
+                <a href="#nuestros-programas">Mis Conocimientos</a>
+                <a href="#caracteristicas">Contáctame</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1>Jefferson José Vega Granda<br>Desarrollador Web Junior</h1>
+
+    </section>
+
+    <section id="somos-proya">
+        <div  class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+
+                <h2>Estudiante: <span class="color-acento">Desarrollador Front-End</span></h2>
+                <h2><span  class="txt"> Jefferson José Vega Granda</span> </h2>
+                <div id="nac">
+                    <h3>Ciudadanía: Ecuatoriano  </h3>
+                    <img id="flag" width="50px" height="30px" src="img/flag-ec.png" alt="bandera de ecuador">
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+
+    <section id="nuestros-programas">
+        <div id="acerca-bk" class="container">
+          <h2><span  class="txt"> Mis conocimientos</span> </h2>
+            <h2></h2>
+            <div class="programas">
+                <div class="carta">
+                    <h3>Programador Junior en Java</h3>
+                    <p>Asistir y contribuir con sus conocimientos de programación, a reuniones de desarrollo de la empresa. </p>
+                    <button><a class="contac" href="#caracteristicas">Contáctame</a> </button>
+                </div>
+                <div class="carta">
+                    <h3>Maquetador Junior HTML</h3>
+                    <p>Estár al día de las tendencias o requerimientos de la audiencia y realiza rediseños de la maquetación si son necesarios</p>
+                    <button><a class="contac" href="#caracteristicas">Contáctame</a> </button>
+                </div>
+                <div class="carta">
+                    <h3>Programador  Junior Javascript</h3>
+                    <p>Uso de las buenas prácticas programando en JS. A su vez buen uso de los arrays y creación de código QR</p>
+                    <button><a class="contac" href="#caracteristicas">Contáctame</a> </button>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <section id="caracteristicas">
+        <div class="container">
+            <ul>
+                <li>✔️ Teléfono: 04-2231500</li>
+                <li>✔️ Celular: 0959048188 </li>
+                <li>✔️ Correo electrónico: carodas64@gmail.com</li>
+                <li>✔️ Disponibilidad Inmediata</li>
+            </ul>
+        </div>
+    </section>
+
+
+</body>
 </html>
